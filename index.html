@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Border-radius generator</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  <main>
+    <div id="box" title="Forma"></div>
+  </main>
+  <aside>
+    <div id="message"></div>
+    <div id="boxSettings">
+      <header>Ajustes</header>
+      <div id="container">
+        <span id="topLeft">Top-left<input type="range" max="100" min="0" value="0" /></span>
+        <span id="topRight">Top-right<input type="range" max="100" min="0" value="0" /></span>
+        <span id="bottomRight">Bottom-right<input type="range" max="100" min="0" value="0" /></span>
+        <span id="bottomLeft">Bottom-left<input type="range" max="100" min="0" value="0" /></span>
+        <div>
+          <div id="">
+            <p>height</p>
+            <input type="range" max="688" min="0" value="200" id="height" />
+          </div>
+          <div id="">
+            <p>width</p>
+            <input type="range" max="900" min="0" value="300" id="width" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="copy" title="Copiar" onclick="copy()">
+      <button><img src="./icons/copy.svg" />Copie o css</button>
+    </div>
+  </aside>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
