@@ -10,9 +10,6 @@ const height = document.querySelector("#height");
 
 const message = document.querySelector("#message");
 
-const container = document.querySelector("#container");
-
-const textCodeCss = document.querySelector("#textCodeCss div");
 
 topLeft.addEventListener("input", () => {
   toModelForm();
