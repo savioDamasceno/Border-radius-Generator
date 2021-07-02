@@ -16,4 +16,4 @@
 #
 ### **Funcionalidades:**
 - [x] Copiar código css
-- [] Responsividade
+- [ ] Responsividade
